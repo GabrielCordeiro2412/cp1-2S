@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import react from 'react'
+//import react from 'react'
 import './Header.css'
 
 export default function Header() {
