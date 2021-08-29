@@ -1,0 +1,81 @@
+header {
+    width: 100%;
+}
+
+.hot-topics {
+    background-color: #ca0f4a;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hot-topics div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.hot-topics div ul {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
+
+.hot-topics div ul li {
+    margin-right: 1rem;
+}
+
+.hot-topics div a {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    padding: 0.3rem;
+    text-decoration: none;
+}
+
+
+.menu {
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    justify-content: center;
+    
+}
+
+.menu-corpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    font-weight: bold;
+}
+
+
+.menu-corpo div {
+    display: flex;
+    align-items: center;
+}
+
+.menu div button {
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    height: fit-content;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+}
+
+.main p {
+    font-weight: bold;
+    margin-right: 1rem;
+}
